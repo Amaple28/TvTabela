@@ -117,18 +117,21 @@
         position: absolute;
         animation:  mymove;
         animation-iteration-count: infinite;
-        animation-direction:alternate-reverse;
-        animation-duration:10s;
-        animation-timing-function:linear;
-        animation-fill-mode:backwards;
+        animation-duration:12s;
     }
 
     @keyframes mymove {
         
-        from {top: 0px;}
-        to {top: 510px;}
+        0% {top: 0px;}
+        12.5% {top: 60px;}
+        25% {top: 120px;}
+        37.5% {top: 190px;}
+        50% {top: 250px;}
+        62.5% {top: 320px;}
+        75% {top: 380px;}
+        87.5% {top: 450px;}
+        100% {top: 510px;}
     }
-
 
     @media (max-width: 1540px) {
         .tv-header {
